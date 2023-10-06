@@ -1,13 +1,18 @@
 import styles from "./Product.module.css";
+import aboutImage from '../images/about-img.jpeg'
+import PageNav from "../components/PageNav";
 
 export default function Product() {
   return (
     <main className={styles.product}>
+      <PageNav height={52}/>
       <section>
-        <img
-          src="img-1.jpg"
-          alt="person with dog overlooking mountain with sunset"
-        />
+        <div>
+          <img
+            src={aboutImage}
+            alt="person with dog overlooking mountain with sunset"
+          />
+        </div>
         <div>
           <h2>About Savemap.</h2>
           <p>

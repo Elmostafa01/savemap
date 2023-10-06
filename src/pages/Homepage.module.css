@@ -1,8 +1,9 @@
 .homepage {
   height: 100vh;
   background-image: linear-gradient(
-      rgba(36, 42, 46, 0.63),
-      rgba(36, 42, 46, 0.945)
+      rgba(36, 42, 46, 0.411),
+      rgb(36, 42, 46),
+      rgba(15, 0, 26, 0.699)
     ),
     url("../images/bg-world.jpeg");
   background-size: cover;
@@ -22,10 +23,11 @@
 
 .homepage h1 {
   text-wrap: balance;
-  font-size: clamp(3rem, 2.5vw, 4rem);
+  font-size: clamp(1rem, 5.5vw, 6rem);
   line-height: 1.5;
   width: 90%;
   font-family: 'Poppins', sans-serif;
+  text-shadow: 0 0 20px #fff;
 }
 
 .homepage h2 {
