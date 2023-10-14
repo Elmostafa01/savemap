@@ -1,6 +1,8 @@
 .nav {
   margin-top: 3rem;
   margin-bottom: 2rem;
+  color: blueviolet;
+  font-size: 1.2rem;
 }
 
 .nav ul {
@@ -13,7 +15,7 @@
 .nav a:link,
 .nav a:visited {
   display: block;
-  color: inherit;
+  color: #f1f1f1;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 1.2rem;
@@ -25,4 +27,5 @@
 /* CSS Modules feature */
 .nav a:global(.active) {
   background-color: var(--color-dark--0);
+  color: blueviolet;
 }

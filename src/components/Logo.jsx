@@ -4,8 +4,12 @@ import { Link } from 'react-router-dom'
 
 function Logo({height}) {
   return (
-  <Link to='/'>
-    <img src={logo} alt="SaveMap logo" style={{height: height}} className={styles.logo} />
+  <Link className="saveplace" to='/'>
+    <img src={logo} alt="SaveMap logo" 
+      style={{height: height}} 
+      className={styles.logo} 
+    />
+    <p>SavePlace</p>
   </Link>
   );
 }
